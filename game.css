@@ -1,0 +1,24 @@
+header{
+    background: black;
+    color: mintcream;
+    font-size: xx-large;
+    text-align: center;
+    font-family: impact;
+}
+body{
+    background: darkgray;
+}
+#players{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+table, tr, td{
+    margin: auto;
+    width: 175px;
+    height: 50px;
+    border: 1px solid black;
+}
+#gamewindow, #turn{
+    text-align: center;
+}
