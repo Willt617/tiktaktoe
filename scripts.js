@@ -10,13 +10,13 @@ let Win = [
 ]
 let player1;
 let player2;
-let turn;
+
 
 function setPlayers(){
     let playerText = document.getElementById("players");
     player1 = document.getElementById("player1").value;
     player2 = document.getElementById("player2").value;
-    turn = player1
+    turn = player1;
     console.log("setPlayers was called");
     playerText.innerHTML = `Player 1: ${player1} is X <br> Player 2: ${player2} is O`;
 }
