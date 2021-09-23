@@ -58,6 +58,10 @@ function setPlayers(){
     let playerText = document.getElementById("players");
     player1 = document.getElementById("player1").value;
     player2 = document.getElementById("player2").value;
+    if(player1 == "" || player2 == ""){
+        window.alert("Please Enter A Name for Both Player 1 And Player 2!");
+        createPlayers();
+    }
     turn = player1;
     console.log("setPlayers was called");
     playerText.innerHTML = `Player 1: ${player1} is X <br> Player 2: ${player2} is O`;
